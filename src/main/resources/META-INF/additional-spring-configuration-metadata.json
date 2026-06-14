@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "app.batch.input-file",
+      "type": "java.lang.String",
+      "description": "CSV file path used by Spring Batch to read product data."
+    }
+  ]
+}
