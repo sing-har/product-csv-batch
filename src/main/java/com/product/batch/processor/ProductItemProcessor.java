@@ -31,7 +31,7 @@ public class ProductItemProcessor implements ItemProcessor<ProductCsvRow, Produc
 
     private final Set<String> productIdsInCurrentJob = ConcurrentHashMap.newKeySet();
 
-    @Value("#{jobExecution.id}")
+    @Value("#{stepExecution.jobExecution.id}")
     private Long jobId;
 
     @Override
