@@ -1,0 +1,101 @@
+product_id,name,category,price,quantity,created_date
+P1001,Laptop 1,electronics,15137.00,4,2026-06-01
+P1002,Mouse 2,accessories,1024.00,7,2026-06-02
+P1003,Chair 3,furniture,3411.00,10,2026-06-03
+P1004,Microwave 4,appliances,7298.00,13,2026-06-04
+P1005,Notebook 5,stationery,1785.00,16,2026-06-05
+P1006,Monitor 6,electronics,15822.00,19,2026-06-06
+P1007,Keyboard 7,accessories,1709.00,22,2026-06-07
+P1008,Desk 8,furniture,4096.00,25,2026-06-08
+P1009,Refrigerator 9,appliances,7983.00,28,2026-06-09
+P1010,Pen Set 10,stationery,2470.00,31,2026-06-10
+P1011,Tablet 11,electronics,16507.00,34,2026-06-11
+P1012,Headphone 12,accessories,2394.00,37,2026-06-12
+P1013,Table 13,furniture,4781.00,40,2026-06-13
+P1014,Washing Machine 14,appliances,8668.00,43,2026-06-14
+P1015,Marker Pack 15,stationery,3155.00,46,2026-06-15
+P1016,Smartphone 16,electronics,17192.00,49,2026-06-16
+P1017,USB Cable 17,accessories,3079.00,2,2026-06-17
+P1018,Bookshelf 18,furniture,5466.00,5,2026-06-18
+P1019,Air Cooler 19,appliances,9353.00,8,2026-06-19
+P1020,File Folder 20,stationery,3840.00,11,2026-06-20
+P1021,Camera 21,electronics,17877.00,14,2026-06-21
+P1022,Laptop Stand 22,accessories,3764.00,17,2026-06-22
+P1023,Cabinet 23,furniture,6151.00,20,2026-06-23
+P1024,Water Purifier 24,appliances,10038.00,23,2026-06-24
+P1025,Stapler 25,stationery,4525.00,26,2026-06-25
+P1026,Speaker 26,electronics,18562.00,29,2026-06-26
+P1027,Webcam 27,accessories,4449.00,32,2026-06-27
+P1028,Sofa 28,furniture,6836.00,35,2026-06-28
+P1029,Mixer Grinder 29,appliances,10723.00,38,2026-06-29
+P1030,Calculator 30,stationery,5210.00,41,2026-06-30
+P1031,Router 31,electronics,19247.00,44,2026-07-01
+P1032,Charger 32,accessories,5134.00,47,2026-07-02
+P1033,Bed Frame 33,furniture,7521.00,50,2026-07-03
+P1034,Toaster 34,appliances,11408.00,3,2026-07-04
+P1035,Diary 35,stationery,5895.00,6,2026-07-05
+P1036,Projector 36,electronics,19932.00,9,2026-07-06
+P1037,Power Bank 37,accessories,5819.00,12,2026-07-07
+P1038,Wardrobe 38,furniture,8206.00,15,2026-07-08
+P1039,Electric Kettle 39,appliances,12093.00,18,2026-07-09
+P1040,Sticky Notes 40,stationery,6580.00,21,2026-07-10
+P1041,Printer 41,electronics,20617.00,24,2026-07-11
+P1042,HDMI Cable 42,accessories,6504.00,27,2026-07-12
+P1043,Drawer 43,furniture,8891.00,30,2026-07-13
+P1044,Vacuum Cleaner 44,appliances,12778.00,33,2026-07-14
+P1045,Paper Ream 45,stationery,7265.00,36,2026-07-15
+P1046,Smartwatch 46,electronics,21302.00,39,2026-07-16
+P1047,Docking Station 47,accessories,7189.00,42,2026-07-17
+P1048,Office Stool 48,furniture,9576.00,45,2026-07-18
+P1049,Air Fryer 49,appliances,13463.00,48,2026-07-19
+P1050,Desk Organizer 50,stationery,7950.00,1,2026-07-20
+P1051,Laptop 51,electronics,21987.00,4,2026-07-21
+P1052,Mouse 52,accessories,7874.00,7,2026-07-22
+P1053,Chair 53,furniture,10261.00,10,2026-07-23
+P1054,Microwave 54,appliances,14148.00,13,2026-07-24
+P1055,Notebook 55,stationery,8635.00,16,2026-07-25
+P1056,Monitor 56,electronics,22672.00,19,2026-07-26
+P1057,Keyboard 57,accessories,8559.00,22,2026-07-27
+P1058,Desk 58,furniture,10946.00,25,2026-07-28
+P1059,Refrigerator 59,appliances,14833.00,28,2026-07-29
+P1060,Pen Set 60,stationery,9320.00,31,2026-07-30
+P1061,Tablet 61,electronics,23357.00,34,2026-06-01
+P1062,Headphone 62,accessories,9244.00,37,2026-06-02
+P1063,Table 63,furniture,11631.00,40,2026-06-03
+P1064,Washing Machine 64,appliances,15518.00,43,2026-06-04
+P1065,Marker Pack 65,stationery,10005.00,46,2026-06-05
+P1066,Smartphone 66,electronics,24042.00,49,2026-06-06
+P1067,USB Cable 67,accessories,9929.00,2,2026-06-07
+P1068,Bookshelf 68,furniture,12316.00,5,2026-06-08
+P1069,Air Cooler 69,appliances,16203.00,8,2026-06-09
+P1070,File Folder 70,stationery,10690.00,11,2026-06-10
+P1071,Camera 71,electronics,24727.00,14,2026-06-11
+P1072,Laptop Stand 72,accessories,10614.00,17,2026-06-12
+P1073,Cabinet 73,furniture,13001.00,20,2026-06-13
+P1074,Water Purifier 74,appliances,16888.00,23,2026-06-14
+P1075,Stapler 75,stationery,11375.00,26,2026-06-15
+P1076,Speaker 76,electronics,25412.00,29,2026-06-16
+P1077,Webcam 77,accessories,11299.00,32,2026-06-17
+P1078,Sofa 78,furniture,13686.00,35,2026-06-18
+P1079,Mixer Grinder 79,appliances,17573.00,38,2026-06-19
+P1080,Calculator 80,stationery,12060.00,41,2026-06-20
+P1081,Router 81,electronics,26097.00,44,2026-06-21
+P1082,Charger 82,accessories,11984.00,47,2026-06-22
+P1083,Bed Frame 83,furniture,14371.00,50,2026-06-23
+P1084,Toaster 84,appliances,18258.00,3,2026-06-24
+P1085,Diary 85,stationery,12745.00,6,2026-06-25
+P1086,Projector 86,electronics,26782.00,9,2026-06-26
+P1087,Power Bank 87,accessories,12669.00,12,2026-06-27
+P1088,Wardrobe 88,furniture,15056.00,15,2026-06-28
+P1089,Electric Kettle 89,appliances,18943.00,18,2026-06-29
+P1090,Sticky Notes 90,stationery,13430.00,21,2026-06-30
+P1091,Printer 91,electronics,27467.00,24,2026-07-01
+P1092,HDMI Cable 92,accessories,13354.00,27,2026-07-02
+P1093,Drawer 93,furniture,15741.00,30,2026-07-03
+P1094,Vacuum Cleaner 94,appliances,19628.00,33,2026-07-04
+P1095,Paper Ream 95,stationery,14115.00,36,2026-07-05
+P1096,Smartwatch 96,electronics,28152.00,39,2026-07-06
+P1097,Docking Station 97,accessories,14039.00,42,2026-07-07
+P1098,Office Stool 98,furniture,16426.00,45,2026-07-08
+P1099,Air Fryer 99,appliances,20313.00,48,2026-07-09
+P1100,Desk Organizer 100,stationery,14800.00,1,2026-07-10

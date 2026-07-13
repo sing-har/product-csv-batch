@@ -1,43 +1,66 @@
 package com.product.batch.controller;
 
-import com.product.batch.entity.ErrorRecord;
+import com.product.batch.dto.response.ApiResponse;
+import com.product.batch.dto.response.BatchJobResponse;
+import com.product.batch.dto.response.ErrorRecordResponse;
+import com.product.batch.dto.response.JobStatusResponse;
 import com.product.batch.service.BatchService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.batch.core.JobExecution;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/api/batch")
 @RequiredArgsConstructor
+@Slf4j
 public class BatchController {
 
     private final BatchService batchService;
 
-    @PostMapping("/process-products")
-    public ResponseEntity<Map<String, Object>> processProducts() throws Exception {
+    @PostMapping(value = "/process-products", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<ApiResponse<BatchJobResponse>> processProducts(
+            @RequestParam("file") MultipartFile file) {
+        log.info(
+                "Received product CSV upload request. fileName={}, size={} bytes",
+                file.getOriginalFilename(),
+                file.getSize());
 
-        JobExecution jobExecution = batchService.startProductCsvJob();
+        BatchJobResponse response = batchService.startProductCsvJob(file);
 
-        Map<String, Object> response = new LinkedHashMap<>();
-        response.put("message", "Product CSV batch job started successfully");
-        response.put("jobExecutionId", jobExecution.getId());
-        response.put("jobStatus", jobExecution.getStatus().toString());
-
-        return ResponseEntity.ok(response);
+        return ResponseEntity.ok(
+                ApiResponse.success(
+                        "Product CSV batch job started successfully",
+                        response));
     }
 
     @GetMapping("/status/{jobId}")
-    public ResponseEntity<Map<String, Object>> getJobStatus(@PathVariable Long jobId) {
-        return ResponseEntity.ok(batchService.getJobStatus(jobId));
+    public ResponseEntity<ApiResponse<JobStatusResponse>> getJobStatus(
+            @PathVariable Long jobId) {
+        log.info("Received job status request for jobId={}", jobId);
+
+        JobStatusResponse response = batchService.getJobStatus(jobId);
+
+        return ResponseEntity.ok(
+                ApiResponse.success(
+                        "Batch job status fetched successfully",
+                        response));
     }
 
     @GetMapping("/errors/{jobId}")
-    public ResponseEntity<List<ErrorRecord>> getErrorsByJobId(@PathVariable Long jobId) {
-        return ResponseEntity.ok(batchService.getErrorsByJobId(jobId));
+    public ResponseEntity<ApiResponse<List<ErrorRecordResponse>>> getErrorsByJobId(
+            @PathVariable Long jobId) {
+        log.info("Received error records request for jobId={}", jobId);
+
+        List<ErrorRecordResponse> response = batchService.getErrorsByJobId(jobId);
+
+        return ResponseEntity.ok(
+                ApiResponse.success(
+                        "Batch error records fetched successfully",
+                        response));
     }
 }

@@ -1,0 +1,4 @@
+product_id,name,category,price,quantity,created_date
+P1001,Laptop 1,computer,99999,2,11-07-2026
+P1002,Mouse 2,gaming,88888,3,11-07-2026
+P1003,Chair 3,office,77777,4,11-07-2026

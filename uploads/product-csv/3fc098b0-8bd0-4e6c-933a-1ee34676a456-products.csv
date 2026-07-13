@@ -1,0 +1,10 @@
+product_id,name,category,price,quantity,created_date
+P101,Laptop,computer,55000,5,01-06-2026
+P102,Mouse,accessories,800,20,02-06-2026
+P103,Keyboard,accessories,1500,10,03-06-2026
+,Monitor,electronics,12000,3,04-06-2026
+P105,,electronics,5000,2,05-06-2026
+P106,Desk,furniture,-2000,1,06-06-2026
+P107,Chair,furniture,2500,-1,07-06-2026
+P108,Table,furniture,4000,5,wrong-date
+,,,,,

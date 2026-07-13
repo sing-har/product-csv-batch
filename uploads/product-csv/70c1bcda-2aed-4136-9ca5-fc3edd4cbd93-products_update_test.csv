@@ -1,0 +1,4 @@
+product_id,name,category,price,quantity,created_date
+P001,Product 1,computer,99999,2,11-07-2026
+P002,Product 2,gaming,88888,3,11-07-2026
+P003,Product 3,office,77777,4,11-07-2026

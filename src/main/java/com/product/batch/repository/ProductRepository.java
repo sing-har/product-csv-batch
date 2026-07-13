@@ -2,8 +2,11 @@ package com.product.batch.repository;
 
 import com.product.batch.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
-public interface ProductRepository extends JpaRepository<Product, Long> {
+import java.util.Optional;
 
-    boolean existsByProductId(String productId);
+public interface ProductRepository extends JpaRepository<Product, Long>, JpaSpecificationExecutor<Product> {
+
+    Optional<Product> findByProductIdIgnoreCase(String productId);
 }

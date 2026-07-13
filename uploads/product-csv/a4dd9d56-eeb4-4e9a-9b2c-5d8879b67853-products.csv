@@ -1,0 +1,101 @@
+product_id,name,category,price,quantity,created_date
+P1001,Laptop 1,electronics,15137,100,01-06-2026
+P1002,Mouse 2,accessories,1024,7,02-06-2026
+P1003,Chair 3,furniture,3411,10,03-06-2026
+P1004,Microwave 4,appliances,7298,13,04-06-2026
+P1005,Notebook 5,stationery,1785,16,05-06-2026
+P1006,Monitor 6,electronics,15822,19,06-06-2026
+P1007,Keyboard 7,accessories,1709,22,07-06-2026
+P1008,Desk 8,furniture,4096,25,08-06-2026
+P1009,Refrigerator 9,appliances,7983,28,09-06-2026
+P1010,Pen Set 10,stationery,2470,31,10-06-2026
+P1011,Tablet 11,electronics,16507,34,11-06-2026
+P1012,Headphone 12,accessories,2394,37,12-06-2026
+P1013,Table 13,furniture,4781,40,13-06-2026
+P1014,Washing Machine 14,appliances,8668,43,14-06-2026
+P1015,Marker Pack 15,stationery,3155,46,15-06-2026
+P1016,Smartphone 16,electronics,17192,49,16-06-2026
+P1017,USB Cable 17,accessories,3079,2,17-06-2026
+P1018,Bookshelf 18,furniture,5466,5,18-06-2026
+P1019,Air Cooler 19,appliances,9353,8,19-06-2026
+P1020,File Folder 20,stationery,3840,11,20-06-2026
+P1021,Camera 21,electronics,17877,14,21-06-2026
+P1022,Laptop Stand 22,accessories,3764,17,22-06-2026
+P1023,Cabinet 23,furniture,6151,20,23-06-2026
+P1024,Water Purifier 24,appliances,10038,23,24-06-2026
+P1025,Stapler 25,stationery,4525,26,25-06-2026
+P1026,Speaker 26,electronics,18562,29,26-06-2026
+P1027,Webcam 27,accessories,4449,32,27-06-2026
+P1028,Sofa 28,furniture,6836,35,28-06-2026
+P1029,Mixer Grinder 29,appliances,10723,38,29-06-2026
+P1030,Calculator 30,stationery,5210,41,30-06-2026
+P1031,Router 31,electronics,19247,44,01-07-2026
+P1032,Charger 32,accessories,5134,47,02-07-2026
+P1033,Bed Frame 33,furniture,7521,50,03-07-2026
+P1034,Toaster 34,appliances,11408,3,04-07-2026
+P1035,Diary 35,stationery,5895,6,05-07-2026
+P1036,Projector 36,electronics,19932,9,06-07-2026
+P1037,Power Bank 37,accessories,5819,12,07-07-2026
+P1038,Wardrobe 38,furniture,8206,15,08-07-2026
+P1039,Electric Kettle 39,appliances,12093,18,09-07-2026
+P1040,Sticky Notes 40,stationery,6580,21,10-07-2026
+P1041,Printer 41,electronics,20617,24,11-07-2026
+P1042,HDMI Cable 42,accessories,6504,27,12-07-2026
+P1043,Drawer 43,furniture,8891,30,13-07-2026
+P1044,Vacuum Cleaner 44,appliances,12778,33,14-07-2026
+P1045,Paper Ream 45,stationery,7265,36,15-07-2026
+P1046,Smartwatch 46,electronics,21302,39,16-07-2026
+P1047,Docking Station 47,accessories,7189,42,17-07-2026
+P1048,Office Stool 48,furniture,9576,45,18-07-2026
+P1049,Air Fryer 49,appliances,13463,48,19-07-2026
+P1050,Desk Organizer 50,stationery,7950,1,20-07-2026
+P1051,Laptop 51,electronics,21987,4,21-07-2026
+P1052,Mouse 52,accessories,7874,7,22-07-2026
+P1053,Chair 53,furniture,10261,10,23-07-2026
+P1054,Microwave 54,appliances,14148,13,24-07-2026
+P1055,Notebook 55,stationery,8635,16,25-07-2026
+P1056,Monitor 56,electronics,22672,19,26-07-2026
+P1057,Keyboard 57,accessories,8559,22,27-07-2026
+P1058,Desk 58,furniture,10946,25,28-07-2026
+P1059,Refrigerator 59,appliances,14833,28,29-07-2026
+P1060,Pen Set 60,stationery,9320,31,30-07-2026
+P1061,Tablet 61,electronics,23357,34,01-06-2026
+P1062,Headphone 62,accessories,9244,37,02-06-2026
+P1063,Table 63,furniture,11631,40,03-06-2026
+P1064,Washing Machine 64,appliances,15518,43,04-06-2026
+P1065,Marker Pack 65,stationery,10005,46,05-06-2026
+P1066,Smartphone 66,electronics,24042,49,06-06-2026
+P1067,USB Cable 67,accessories,9929,2,07-06-2026
+P1068,Bookshelf 68,furniture,12316,5,08-06-2026
+P1069,Air Cooler 69,appliances,16203,8,09-06-2026
+P1070,File Folder 70,stationery,10690,11,10-06-2026
+P1071,Camera 71,electronics,24727,14,11-06-2026
+P1072,Laptop Stand 72,accessories,10614,17,12-06-2026
+P1073,Cabinet 73,furniture,13001,20,13-06-2026
+P1074,Water Purifier 74,appliances,16888,23,14-06-2026
+P1075,Stapler 75,stationery,11375,26,15-06-2026
+P1076,Speaker 76,electronics,25412,29,16-06-2026
+P1077,Webcam 77,accessories,11299,32,17-06-2026
+P1078,Sofa 78,furniture,13686,35,18-06-2026
+P1079,Mixer Grinder 79,appliances,17573,38,19-06-2026
+P1080,Calculator 80,stationery,12060,41,20-06-2026
+P1081,Router 81,electronics,26097,44,21-06-2026
+P1082,Charger 82,accessories,11984,47,22-06-2026
+P1083,Bed Frame 83,furniture,14371,50,23-06-2026
+P1084,Toaster 84,appliances,18258,3,24-06-2026
+P1085,Diary 85,stationery,12745,6,25-06-2026
+P1086,Projector 86,electronics,26782,9,26-06-2026
+P1087,Power Bank 87,accessories,12669,12,27-06-2026
+P1088,Wardrobe 88,furniture,15056,15,28-06-2026
+P1089,Electric Kettle 89,appliances,18943,18,29-06-2026
+P1090,Sticky Notes 90,stationery,13430,21,30-06-2026
+P1091,Printer 91,electronics,27467,24,01-07-2026
+P1092,HDMI Cable 92,accessories,13354,27,02-07-2026
+P1093,Drawer 93,furniture,15741,30,03-07-2026
+P1094,Vacuum Cleaner 94,appliances,19628,33,04-07-2026
+P1095,Paper Ream 95,stationery,14115,36,05-07-2026
+P1096,Smartwatch 96,electronics,28152,39,06-07-2026
+P1097,Docking Station 97,accessories,14039,42,07-07-2026
+P1098,Office Stool 98,furniture,16426,45,08-07-2026
+P1099,Air Fryer 99,appliances,20313,48,09-07-2026
+P1100,Desk Organizer 100,stationery,14800,1,10-07-2026

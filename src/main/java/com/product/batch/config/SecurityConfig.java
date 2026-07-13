@@ -48,6 +48,9 @@ public class SecurityConfig {
                                                 .requestMatchers(HttpMethod.GET, "/api/batch/errors/**")
                                                 .hasAnyRole("ADMIN", "BATCH_OPERATOR")
 
+                                                .requestMatchers(HttpMethod.POST, "/api/products/search")
+                                                .hasAnyRole("ADMIN", "BATCH_OPERATOR", "VIEWER")
+
                                                 .anyRequest().authenticated())
                                 .oauth2ResourceServer(oauth2 -> oauth2
                                                 .jwt(jwt -> jwt.jwtAuthenticationConverter(jwtAuthenticationConverter)))

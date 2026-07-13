@@ -5,6 +5,7 @@ import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "products", uniqueConstraints = {
@@ -41,4 +42,7 @@ public class Product {
 
     @Column(name = "created_date", nullable = false)
     private LocalDate createdDate;
+
+    @Column(name = "updated_date")
+    private LocalDateTime updatedDate;
 }
